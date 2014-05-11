@@ -12,7 +12,7 @@ License:
 
 require_once( plugin_dir_path(__FILE__) . '/lib/wp_auto_update.php');
 
-if (!class_exists('OracleDigital_Mobile_Menu')) {
+if (!class_exists('Burger_Mobile_Menu')) {
  
 	class OracleDigital_Mobile_Menu {
 
@@ -242,6 +242,6 @@ if (!class_exists('OracleDigital_Mobile_Menu')) {
 	}
 }
 
-new OracleDigital_Mobile_Menu();
+new Burger_Mobile_Menu();
 
 ?>
