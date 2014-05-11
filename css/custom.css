@@ -1,0 +1,111 @@
+/** Custom css and overrides by http://twitter.com/freddielore */
+/*.admin-bar #mobile-header{
+	margin-top: 28px;
+}*/
+
+html{ margin-top: 40px!important; }
+/*html.admin{ margin-top: 68px!important; }*/
+html.mm-opened, html.mm-opened body { margin-top: 0!important; }
+
+.menu,
+.genesis-nav-menu{ 
+	display: none;
+	float: none!important;
+}
+
+/** burger menu mobile starts here */
+#mobile-header{
+	
+	background: #BDBDBD;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 10%;
+	width: 80%;
+	display: block!important;
+	-webkit-transform: translateZ(0);
+	z-index: 9999;
+	-webkit-box-sizing: content-box!important;
+	-moz-box-sizing: content-box!important;
+	box-sizing: content-box!important;
+	top: 0px;
+	left: 0;
+	-webkit-transition: none 0.4s ease;
+	-moz-transition: none 0.4s ease;
+	-ms-transition: none 0.4s ease;
+	-o-transition: none 0.4s ease;
+	transition: none 0.4s ease;
+	-webkit-transition-property: top, right, bottom, left, border;
+	-moz-transition-property: top, right, bottom, left, border;
+	-ms-transition-property: top, right, bottom, left, border;
+	-o-transition-property: top, right, bottom, left, border;
+	transition-property: top, right, bottom, left, border;
+}
+
+html.mm-opening #mobile-header{ left: 80%; }
+
+#mobile-header a{
+	background: center center no-repeat transparent;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAE1JREFUeNpi/P//PwOtARMDHQBdLGFBYt+nkR2KjEhxQqvIYaR7cD2glSWMo0mY3DiJo5Edi4ZPEqZ7nMSP5pPRon60qB9NwpQDgAADAMIxHUJvWs/TAAAAAElFTkSuQmCC);
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: 10px;
+	text-decoration: none!important;
+	border: none!important;
+}
+
+#mobile-header span {
+	display: block;
+	text-align: left;
+	padding: 1px 18px;
+}
+
+#mobile-header span a {
+	position: relative;
+	background: none;
+	color: #fff;
+	left: auto;
+}
+
+#mobile-header a.right{
+	left: auto;
+	right: 10px;
+	background-image: url(../images/phone-icon.png);
+	width: auto;
+	color: #fff;
+	background-position: center right;
+	padding-right: 33px;
+}
+
+#mobile-header span a,
+#mobile-header a.right{
+	text-decoration: none;
+}
+
+.mm-menu > .mm-list{ padding-top: 0!important; }
+
+.mm-menu{ z-index: 9999!important; }
+
+.mm-menu li > a, .mm-menu li > span{
+	text-align: left;
+	border: 0!important;
+}
+
+.mm-menu li {
+	position: relative!important;
+	display: block!important;
+}
+
+#mm-mainNav {
+	z-index:1;
+}
+
+.mm-page {
+	z-index: 2;
+}

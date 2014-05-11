@@ -1,0 +1,120 @@
+/** wp-admin custom stylesheet for OD Mobile Menu */
+
+.settings_page_od-mobile-menu .wrap form{
+	width: 50%;
+	padding: 0 2%;
+	background: #fff;
+	float: left;
+}
+
+.settings_page_od-mobile-menu .description{ 
+	display: block; 
+	font-size: 12px;
+	color: #A09E9E;
+	font-style: normal;
+	padding: 5px 0;
+}
+
+.settings_page_od-mobile-menu th{ font-size: 13px; }
+
+
+#od_mobile_bg_color{
+	width: 175px;
+}
+
+/** iPhone Simulator */
+.od-mobile-menu{
+	float: right;	
+	width: 40%;
+	max-width: 393px;
+}
+
+.od-mobile-menu h3{ text-align: center; }
+
+.simulator{
+	overflow: hidden;
+	background-image: url(../images/iphonebg.png);
+	background-repeat: no-repeat;
+	width: 393px;
+	height: 871px;
+	position: relative;
+}
+
+#iphone-scrollcontainer{
+	height: 480px;
+	width: 320px;
+	position: absolute;
+	top: 135px;
+	left: 38px;
+	z-index: 10;
+}
+
+#iphone-inside{
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	background: #fff url(../images/background.png) no-repeat center center;
+
+}
+
+#mobile-header{
+	background: #BDBDBD;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 10%;
+	width: 80%;
+	display: block!important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transform: translateZ(0);
+	z-index: 9999;
+	-webkit-box-sizing: content-box!important;
+	-moz-box-sizing: content-box!important;
+	box-sizing: content-box!important;
+}
+
+#mobile-header a{
+	background: center center no-repeat transparent;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAE1JREFUeNpi/P//PwOtARMDHQBdLGFBYt+nkR2KjEhxQqvIYaR7cD2glSWMo0mY3DiJo5Edi4ZPEqZ7nMSP5pPRon60qB9NwpQDgAADAMIxHUJvWs/TAAAAAElFTkSuQmCC);
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: 10px;
+	text-decoration: none!important;
+	border: none!important;
+}
+
+#mobile-header span {
+	display: block;
+	text-align: left;
+	padding: 1px 18px;
+}
+
+#mobile-header span a {
+	position: relative;
+	background: none;
+	color: #fff;
+	left: auto;
+}
+
+#mobile-header a.right{
+	left: auto;
+	right: 10px;
+	background-image: url(../images/phone-icon.png);
+	width: auto;
+	color: #fff;
+	background-position: center right;
+	padding-right: 33px;
+}
+
+#mobile-header span a,
+#mobile-header a.right{
+	text-decoration: none;
+}
