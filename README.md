@@ -1,4 +1,4 @@
-Responsive Burger Menu version 1.7.2
+Responsive Burger Menu (Beta)
 ======================
 
 Transform your default WordPress menu into a responsive, modern app-like menu similar to Mashable, Facebook.
